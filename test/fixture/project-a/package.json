@@ -1,0 +1,27 @@
+{
+  "name": "project-a",
+  "version": "0.0.1",
+  "operations": {
+    "watchman": {
+      "test": true,
+      "triggers": [
+        {
+          "name": "babel",
+          "expression": [
+            "anyof",
+            [
+              "match",
+              "lib/**/*.js",
+              "wholename"
+            ]
+          ],
+          "command": [
+            "npm",
+            "run",
+            "build"
+          ]
+        }
+      ]
+    }
+  }
+}
