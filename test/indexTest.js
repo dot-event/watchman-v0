@@ -35,7 +35,7 @@ test("watchman", async () => {
     "before.spawn": ({ event }) => args.push(event.args[0]),
   })
 
-  await run()
+  await run("--create")
 
   expect(args).toEqual([
     {
