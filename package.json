@@ -1,6 +1,6 @@
 {
   "name": "@dot-event/watchman",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "dot-event watchman operation",
   "keywords": [
     "dot-event",
@@ -46,13 +46,13 @@
   },
   "dependencies": {
     "@babel/runtime": "7.1.2",
-    "@dot-event/argv": "2.10.0",
-    "@dot-event/fs": "1.11.0",
+    "@dot-event/argv": "2.10.1",
+    "@dot-event/fs": "1.11.1",
     "@dot-event/log": "0.12.0",
-    "@dot-event/spawn": "2.6.0",
-    "@dot-event/store": "5.9.0",
-    "@dot-event/task": "1.11.1",
-    "dot-event": "2.11.1"
+    "@dot-event/spawn": "2.6.1",
+    "@dot-event/store": "5.9.1",
+    "@dot-event/task": "1.11.2",
+    "dot-event": "2.11.2"
   },
   "devDependencies": {
     "@babel/cli": "7.1.2",
