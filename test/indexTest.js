@@ -1,17 +1,19 @@
+// Packages
 import dotEvent from "dot-event"
-import dotStore from "@dot-event/store"
 import dotTask from "@dot-event/task"
 
-import dotWatchman from "../dist/watchman"
+// Helpers
+import dotWatchman from "../"
 
-let events, store
+// Variables
+let events
 
+// Tests
 beforeEach(async () => {
   events = dotEvent()
-  store = dotStore({ events })
 
-  dotWatchman({ events, store })
-  dotTask({ events, store })
+  dotTask({ events })
+  dotWatchman({ events })
 
   events.onAny({
     "before.spawn": ({ event }) => {
