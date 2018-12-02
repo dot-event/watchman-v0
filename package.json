@@ -1,6 +1,6 @@
 {
   "name": "@dot-event/watchman",
-  "version": "0.6.11",
+  "version": "0.6.12",
   "description": "dot-event watchman operation",
   "keywords": [
     "dot-event",
@@ -52,7 +52,7 @@
     "@dot-event/log": "0.13.2",
     "@dot-event/spawn": "2.6.10",
     "@dot-event/store": "6.0.5",
-    "@dot-event/task": "1.11.10",
+    "@dot-event/task": "1.11.11",
     "dot-event": "2.12.6"
   },
   "devDependencies": {
